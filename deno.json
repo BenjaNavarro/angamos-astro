@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "dev": "deno run npm:astro dev",
+    "build": "deno run npm:astro build",
+    "preview": "deno run npm:astro preview",
+    "astro": "deno run npm:astro"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  },
+  "nodeModulesDir": "auto"
+}
